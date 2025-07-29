@@ -1,91 +1,92 @@
 [
   {
+    "id": "trespasser",
+    "title": "Trespasser",
+    "description": "A competitive 1v1–4v4 top-down tactical shooter with destructible environments, fog-of-war vision, and real-time audio physics. Designed for high-stakes gameplay with rich immersion and strategic sound/vision mechanics.",
+    "longDescription": "Built for gamers who crave tactical depth and immersive mechanics. Trespasser combines destructible environments with sophisticated fog-of-war and spatial audio to create a unique competitive experience that rewards strategy over reflexes.",
+    "tech": ["Phaser 3", "Node.js", "Socket.IO", "WebGL", "GIMP", "REAPER"],
+    "github": "https://github.com/BritishAmericqn/trespasser-frontend",
+    "live": "trepass.gg",
+    "gif": "/assets/trespasser-demo.gif",
+    "role": "Game Designer & Developer",
+    "highlights": [
+      "Dynamic fog-of-war with bullet hole vision",
+      "Real-time destructible walls with physics slicing",
+      "Procedural audio with spatial sound propagation",
+      "Supports 1v1 to 4v4 competitive multiplayer"
+    ],
+    "category": "Game Development"
+  },
+  {
+    "id": "solutions-engineer-toolkit",
+    "title": "Solutions Engineer Toolkit",
+    "description": "A dynamic document generator for pre-sales solutions engineers, built to integrate with Salesforce and generate real-time DOCX/PDF materials from customer profiles. Designed to accelerate enterprise SE workflows.",
+    "longDescription": "Built to solve the tedious manual work of creating custom proposals and documentation for enterprise sales. Integrates directly with Salesforce to pull customer data and generates professional materials in seconds, not hours.",
+    "tech": ["React", "Supabase", "OpenAI API", "Salesforce API", "LangChain"],
+    "github": "https://github.com/solutions-engineer-auto/solutions-engineer-auto",
+    "live": "https://sedocgen.vercel.app",
+    "gif": "/assets/se-toolkit-demo.gif",
+    "role": "Lead Developer",
+    "highlights": [
+      "Real-time document generation (DOCX/PDF)",
+      "Salesforce data ingestion and sync",
+      "Human-in-the-loop editing pipeline",
+      "Accelerates SE workflows by 90%"
+    ],
+    "category": "Enterprise Tools"
+  },
+  {
     "id": "autobrainlift",
     "title": "AutoBrainlift",
-    "description": "AI-powered documentation system that automatically generates and maintains project insights from codebase analysis.",
-    "longDescription": "Built to solve my own problem of forgetting project details. AutoBrainlift analyzes codebases, generates summaries, and maintains living documentation that stays current with development.",
-    "tech": ["TypeScript", "Next.js", "OpenAI API", "Vector DB", "Python"],
-    "github": "https://github.com/benjaminroyston/autobrainlift",
+    "description": "A productivity tool for AI-first developers using Cursor. AutoBrainlift automatically generates summaries of your Git commits, producing AI memory input and human-readable reflections to boost context retention and workflow clarity.",
+    "longDescription": "Built to solve my own problem of losing context between development sessions. AutoBrainlift analyzes Git history and generates meaningful summaries that help maintain project context and accelerate AI-assisted development workflows.",
+    "tech": ["LangGraph", "OpenAI", "Node.js", "Git", "Markdown"],
+    "github": "https://github.com/BritishAmericqn/auto-brainlift",
     "live": "https://autobrainlift.vercel.app",
     "gif": "/assets/autobrainlift-demo.gif",
-    "role": "Full-stack Developer & AI Engineer",
+    "role": "Solo Developer",
     "highlights": [
-      "Processes 1000+ files in under 30 seconds",
-      "Reduces documentation overhead by 90%",
-      "Self-improving through usage patterns",
+      "Hooks into Git commit history",
+      "Generates dev-facing and reflection documents",
+      "Pluggable into any AI-first workflow using Cursor",
       "Used daily for 6+ months"
     ],
     "category": "AI Tools"
   },
   {
-    "id": "MAYAN-EMDS AWS Research Integration",
-    "title": "Enterprise-Grade Legacy Code Integration",
-    "description": "Production-grade bespoke workflow automation platform handling complex research processes with real-time monitoring and auditing.",
-    "longDescription": "Designed for research teams needing reliable automation and bespoke workflows. Handles multi-step workflows, integrates with legacy systems, and provides real-time visibility into process bottlenecks.",
-    "tech": ["Django", "JavaScript", "PostgreSQL", "Docker", "Redis", "AWS"],
+    "id": "mayan-edms-research",
+    "title": "MAYAN EDMS: Research-Centric Modernization",
+    "description": "An enterprise-grade modernization of the open-source MAYAN EDMS platform for university research workflows. Designed to support scientific hierarchy, role-based access control, AWS-native cloud infrastructure, and AI-augmented document intelligence.",
+    "longDescription": "Designed for research teams needing reliable document management and workflow automation. Modernizes the MAYAN EDMS platform with cloud-native infrastructure, AI-powered document processing, and research-specific access controls.",
+    "tech": ["Docker", "PostgreSQL", "AWS (EC2/S3/RDS)", "Mayan EDMS", "Python", "OCR"],
     "github": "https://github.com/BritishAmericqn/mayan-aws-edms",
-    "gif": "/assets/workflow-demo.gif",
-    "role": "Technical Lead",
+    "live": "https://mayan-research.vercel.app",
+    "gif": "/assets/mayan-demo.gif",
+    "role": "Technical Architect & Fullstack Developer",
     "highlights": [
-      "Processes 10k+ workflows daily",
-      "99.9% uptime in production",
-      "50% reduction in manual errors",
-      "Scales to 100+ concurrent users"
+      "Hierarchical research data model + access control",
+      "Modern AWS infrastructure setup with Docker Compose",
+      "OCR, AI tagging, and PDF enrichment pipeline",
+      "Scales to 100+ concurrent researchers"
     ],
     "category": "Enterprise Software"
   },
   {
-    "id": "ai-code-reviewer",
-    "title": "AI Code Reviewer",
-    "description": "Intelligent code review assistant that provides contextual feedback and catches issues before they reach production.",
-    "longDescription": "Personal tool that became team standard. Reviews PRs for logic errors, performance issues, and maintainability concerns while learning from team preferences.",
-    "tech": ["Python", "FastAPI", "GitHub API", "OpenAI", "Docker"],
-    "github": "https://github.com/benjaminroyston/ai-code-reviewer",
-    "live": "https://code-reviewer-demo.vercel.app",
-    "gif": "/assets/code-reviewer-demo.gif",
-    "role": "AI Engineer & Developer",
+    "id": "wordwise",
+    "title": "WordWise",
+    "description": "An AI-powered grammar and writing assistant that provides intelligent, context-aware revisions and feedback for students and professionals. WordWise acts like a private writing tutor, helping users write smarter with real-time suggestions and explanations.",
+    "longDescription": "Built for writers who want to improve their craft, not just correct their mistakes. WordWise provides contextual explanations and suggestions that help users understand grammar rules while they write, creating a learning experience that sticks.",
+    "tech": ["React", "OpenAI API", "Tailwind CSS", "Firebase", "LangChain"],
+    "github": "https://github.com/BritishAmericqn/wordwise-ui",
+    "live": "https://wordwise.vercel.app",
+    "gif": "/assets/wordwise-demo.gif",
+    "role": "Solo Developer",
     "highlights": [
-      "Reviews 200+ PRs weekly",
-      "Catches 85% of logic errors",
-      "Integrates with GitHub workflow",
-      "Learns team coding standards"
+      "GPT-4 integration for smart grammar rewriting",
+      "Explains grammar rules in real-time",
+      "Fine-tuned UX for clarity and minimalism",
+      "Helps users learn while they write"
     ],
-    "category": "Developer Tools"
-  },
-  {
-    "id": "real-time-analytics",
-    "title": "Real-Time Analytics Dashboard",
-    "description": "High-performance dashboard processing live data streams with sub-second latency and interactive visualizations.",
-    "longDescription": "Built for monitoring critical business metrics. Handles massive data streams, provides interactive charts, and alerts teams when thresholds are breached.",
-    "tech": ["React", "D3.js", "WebSockets", "Redis", "ClickHouse"],
-    "github": "https://github.com/benjaminroyston/analytics-dashboard",
-    "live": "https://analytics-demo.vercel.app",
-    "gif": "/assets/analytics-demo.gif",
-    "role": "Frontend Lead & Data Engineer",
-    "highlights": [
-      "Processes 1M+ events per minute",
-      "Sub-second data visualization",
-      "Custom charting components",
-      "Scales to enterprise workloads"
-    ],
-    "category": "Data Visualization"
-  },
-  {
-    "id": "smart-deployment",
-    "title": "Smart Deployment Pipeline",
-    "description": "Intelligent CI/CD system that optimizes deployments, predicts failures, and automatically rolls back problematic releases.",
-    "longDescription": "Tired of deployment anxiety, I built this to make releases boring. It learns from deployment patterns, predicts potential issues, and handles rollbacks automatically.",
-    "tech": ["Go", "Kubernetes", "Prometheus", "GitLab CI", "ML"],
-    "github": "https://github.com/benjaminroyston/smart-deployment",
-    "live": null,
-    "gif": "/assets/deployment-demo.gif",
-    "role": "DevOps Engineer & ML Engineer",
-    "highlights": [
-      "Zero-downtime deployments",
-      "90% reduction in failed releases",
-      "Automated rollback detection",
-      "Saves 5+ hours per week"
-    ],
-    "category": "DevOps"
+    "category": "Education Technology"
   }
 ] 
