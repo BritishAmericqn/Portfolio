@@ -1,0 +1,91 @@
+[
+  {
+    "id": "autobrainlift",
+    "title": "AutoBrainlift",
+    "description": "AI-powered documentation system that automatically generates and maintains project insights from codebase analysis.",
+    "longDescription": "Built to solve my own problem of forgetting project details. AutoBrainlift analyzes codebases, generates summaries, and maintains living documentation that stays current with development.",
+    "tech": ["TypeScript", "Next.js", "OpenAI API", "Vector DB", "Python"],
+    "github": "https://github.com/benjaminroyston/autobrainlift",
+    "live": "https://autobrainlift.vercel.app",
+    "gif": "/assets/autobrainlift-demo.gif",
+    "role": "Full-stack Developer & AI Engineer",
+    "highlights": [
+      "Processes 1000+ files in under 30 seconds",
+      "Reduces documentation overhead by 90%",
+      "Self-improving through usage patterns",
+      "Used daily for 6+ months"
+    ],
+    "category": "AI Tools"
+  },
+  {
+    "id": "MAYAN-EMDS AWS Research Integration",
+    "title": "Enterprise-Grade Legacy Code Integration",
+    "description": "Production-grade bespoke workflow automation platform handling complex research processes with real-time monitoring and auditing.",
+    "longDescription": "Designed for research teams needing reliable automation and bespoke workflows. Handles multi-step workflows, integrates with legacy systems, and provides real-time visibility into process bottlenecks.",
+    "tech": ["Django", "JavaScript", "PostgreSQL", "Docker", "Redis", "AWS"],
+    "github": "https://github.com/BritishAmericqn/mayan-aws-edms",
+    "gif": "/assets/workflow-demo.gif",
+    "role": "Technical Lead",
+    "highlights": [
+      "Processes 10k+ workflows daily",
+      "99.9% uptime in production",
+      "50% reduction in manual errors",
+      "Scales to 100+ concurrent users"
+    ],
+    "category": "Enterprise Software"
+  },
+  {
+    "id": "ai-code-reviewer",
+    "title": "AI Code Reviewer",
+    "description": "Intelligent code review assistant that provides contextual feedback and catches issues before they reach production.",
+    "longDescription": "Personal tool that became team standard. Reviews PRs for logic errors, performance issues, and maintainability concerns while learning from team preferences.",
+    "tech": ["Python", "FastAPI", "GitHub API", "OpenAI", "Docker"],
+    "github": "https://github.com/benjaminroyston/ai-code-reviewer",
+    "live": "https://code-reviewer-demo.vercel.app",
+    "gif": "/assets/code-reviewer-demo.gif",
+    "role": "AI Engineer & Developer",
+    "highlights": [
+      "Reviews 200+ PRs weekly",
+      "Catches 85% of logic errors",
+      "Integrates with GitHub workflow",
+      "Learns team coding standards"
+    ],
+    "category": "Developer Tools"
+  },
+  {
+    "id": "real-time-analytics",
+    "title": "Real-Time Analytics Dashboard",
+    "description": "High-performance dashboard processing live data streams with sub-second latency and interactive visualizations.",
+    "longDescription": "Built for monitoring critical business metrics. Handles massive data streams, provides interactive charts, and alerts teams when thresholds are breached.",
+    "tech": ["React", "D3.js", "WebSockets", "Redis", "ClickHouse"],
+    "github": "https://github.com/benjaminroyston/analytics-dashboard",
+    "live": "https://analytics-demo.vercel.app",
+    "gif": "/assets/analytics-demo.gif",
+    "role": "Frontend Lead & Data Engineer",
+    "highlights": [
+      "Processes 1M+ events per minute",
+      "Sub-second data visualization",
+      "Custom charting components",
+      "Scales to enterprise workloads"
+    ],
+    "category": "Data Visualization"
+  },
+  {
+    "id": "smart-deployment",
+    "title": "Smart Deployment Pipeline",
+    "description": "Intelligent CI/CD system that optimizes deployments, predicts failures, and automatically rolls back problematic releases.",
+    "longDescription": "Tired of deployment anxiety, I built this to make releases boring. It learns from deployment patterns, predicts potential issues, and handles rollbacks automatically.",
+    "tech": ["Go", "Kubernetes", "Prometheus", "GitLab CI", "ML"],
+    "github": "https://github.com/benjaminroyston/smart-deployment",
+    "live": null,
+    "gif": "/assets/deployment-demo.gif",
+    "role": "DevOps Engineer & ML Engineer",
+    "highlights": [
+      "Zero-downtime deployments",
+      "90% reduction in failed releases",
+      "Automated rollback detection",
+      "Saves 5+ hours per week"
+    ],
+    "category": "DevOps"
+  }
+] 

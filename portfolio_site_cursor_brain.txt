@@ -1,0 +1,132 @@
+
+==============================
+🧠 PORTFOLIO SITE: CURSOR BRAINLIFT
+==============================
+
+📅 Deadline: 2025-07-28 — Due by 10PM CT Today
+Goal: Build a high-impact portfolio site that signals professional quality, real utility, and personal style to hiring partners.
+
+----------------------------------------
+🔍 STRATEGIC FOUNDATION
+----------------------------------------
+
+✨ PERSONAL EDGE
+- I develop fleshed out projects on time, within scope, and to spec.
+- I build tooling optimized for both enterprise and solo workflows.
+
+🧵 PROJECT THROUGHLINE
+- All my projects are built for *Real Utility* — tools I actually use.
+- I value usability, meaningful design, and tools that do serious work.
+
+🛠️ DESIGN / DEVELOPMENT PHILOSOPHY
+- I build to the sophistication expected of production-grade software.
+- I prioritize aggressively — what ships matters more than perfection.
+- I execute cleanly within scope, cutting ruthlessly when needed.
+
+🎯 AUDIENCE TARGET
+- Technical founders
+- AI product teams
+- People who value fullstack AI fluency and execution velocity
+
+----------------------------------------
+🛠️ DEV TOOLING + FRAMEWORKS
+----------------------------------------
+
+Framework:        Next.js (or Astro for faster builds)
+Styling:          Tailwind CSS + Framer Motion
+Components:       shadcn/ui or Radix UI for primitives
+Deploy:           Vercel (GitHub connected)
+Video Hosting:    YouTube (or Loom, fallback)
+Design Notes:     Minimalist, modern, clean—but with pop
+Color Palette:    Iceland beach / basalt + clean whites / accent color
+Font:             Clean, modern (Sora, Inter, or Manrope)
+
+Cursor Usage:
+- You will be editing a project structure that includes:
+  - `projects.json` (project metadata)
+  - `components/ProjectCard.tsx`
+  - `pages/index.tsx` for homepage / grid
+  - Optional: `pages/projects/[slug].tsx` for individual pages
+
+AI Output Goals:
+- Can help fill in:
+  - Project blurbs
+  - Taglines
+  - Video descriptions
+  - About Me prose
+  - Section headlines
+
+----------------------------------------
+🧩 UI/UX STRATEGY
+----------------------------------------
+
+🏞️ HERO SECTION
+- Large, cinematic background (Iceland/beach/basalt aesthetic)
+- One-liner summary of philosophy
+- Buttons: View Projects, About Me, Resume, LinkedIn
+
+🌀 INTERACTIVE GIMMICKS
+- Scroll-triggered animations (Framer Motion)
+- Timeline-based career/project growth scroll
+- Code toggle ("Show me code" reveals real examples)
+- Dev/Reflection mode toggle (switch between product view + behind-the-scenes)
+- AI log linkouts (AutoBrainlift summaries embedded per project)
+- Stack tag hovers (show tools used and confidence)
+
+🧠 AI-LITE FEATURE IDEAS (Optional)
+- “Summarize This Project” button with GPT-4 summary
+- “Ask Me Anything” preloaded Q&A window
+
+----------------------------------------
+📦 PROJECT CONTENT STRUCTURE
+----------------------------------------
+
+Each project includes:
+- ✅ Name
+- ✅ Short description
+- ✅ 3–5 highlight bullets
+- ✅ GitHub link
+- ✅ Deployed link (if available)
+- ✅ Video walkthrough (target: 90–120 sec)
+- ✅ Tags: tech stack, role
+
+JSON structure for each project:
+{
+  "title": "Project Title",
+  "description": "Short pitch",
+  "tech": ["Tech", "Used", "Here"],
+  "github": "https://github.com/...",
+  "live": "https://project-demo.vercel.app",
+  "video": "https://youtube.com/...",
+  "role": "Your role",
+  "highlights": [
+    "Major highlight 1",
+    "Major highlight 2",
+    "Major highlight 3"
+  ]
+}
+
+----------------------------------------
+📝 PRE-WORK TASK CHECKLIST
+----------------------------------------
+
+[ ] Finalize project blurbs
+[ ] Pick video format + re-record with new script (90s)
+[ ] Define site layout (grid / scroll / detail views)
+[ ] Select fonts + colors in Tailwind config
+[ ] Create visual assets: screen recordings, thumbnails
+[ ] Integrate hover/scroll animations
+
+----------------------------------------
+🔥 FINAL TIPS
+----------------------------------------
+
+- Clarity > Quantity: 5 clean projects > 8 noisy ones
+- Motion matters: subtle animation = perceived polish
+- Text hierarchy: font sizes & spacing elevate design
+- Show how you think: link to reflections or planning notes
+- Don’t just show what it is → show *why it matters*
+
+Ready to build? Just feed this context into Cursor’s memory panel and let it assist with layout population, content generation, and polish!
+
+Generated 2025-07-28 16:10:01
