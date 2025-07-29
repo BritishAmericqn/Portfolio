@@ -39,7 +39,6 @@ export default function Hero() {
             aria-hidden="true"
             suppressHydrationWarning
           >
-            {/* TODO: Replace with actual hero video */}
             <source src="/assets/hero-video.mp4" type="video/mp4" />
           </video>
         )}
@@ -51,29 +50,29 @@ export default function Hero() {
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-20">
         {/* Main Headline - Inter font with distinctive styling */}
         <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-foreground leading-tight mb-6 tracking-tight">
-          I build tools with{' '}
+          Building for{' '}
           <span className="text-accent blue-text-hover block mt-2">
-            Real Utility
+            Production
           </span>
         </h1>
 
         {/* Subtitle */}
         <p className="text-xl sm:text-2xl text-muted max-w-3xl mx-auto mb-12 leading-relaxed font-normal">
-          AI-first developer for technical teams who value execution velocity.
+          CS student at Rice University focused on AI. Engineering tools with real utility
           <br className="hidden sm:block" />
-          Projects I actually use, built on time and to spec.
+          that meet production-grade standards, not just demo pieces.
         </p>
 
         {/* GitHub Link */}
         <div className="mb-16">
           <a
-            href="https://github.com/benjaminroyston" // TODO: Update with actual GitHub
+            href="https://github.com/BritishAmericqn"
             target="_blank"
             rel="noopener noreferrer"
             className="btn bg-card border border-neutral text-muted hover:border-accent hover:text-accent px-8 py-4 text-lg font-medium rounded-md transition-all duration-200 shadow-sm hover:shadow-md"
             aria-label="Visit GitHub profile"
           >
-            GitHub
+            View GitHub
           </a>
         </div>
 
@@ -85,8 +84,8 @@ export default function Hero() {
               See What I&apos;ve Built
             </h3>
             <p className="text-lg text-muted mb-6 leading-relaxed font-normal">
-              Ready to see these principles in action? Check out my projects—tools 
-              I&apos;ve built to solve real problems and deliver genuine utility.
+              Projects engineered for real utility—tools I actually use, built with 
+              production-grade standards and thoughtful architectural decisions.
             </p>
             <div className="flex justify-center">
               <button
@@ -102,15 +101,15 @@ export default function Hero() {
           {/* Currently Available */}
           <div className="bg-card border border-border p-8 rounded-xl shadow-lg">
             <h3 className="text-2xl font-semibold text-foreground mb-4">
-              Currently Available
+              Open to Opportunities
             </h3>
             <p className="text-lg text-muted mb-6 leading-relaxed font-normal">
-              Looking for technical founders and AI product teams who value 
-              execution velocity and real utility over buzzword-driven development.
+              Seeking technical founders and AI product teams who value fast iteration, 
+              sharp engineering thinking, and deep user empathy.
             </p>
             <div className="flex justify-center">
               <a
-                href="https://linkedin.com/in/benjamin-royston" // TODO: Update with actual LinkedIn
+                href="https://www.linkedin.com/in/benjamin-royston-b9375b312/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-primary blue-hover-glow px-8 py-4 text-lg font-medium rounded-md shadow-lg hover:shadow-xl transition-all duration-200"
@@ -131,12 +130,15 @@ export default function Hero() {
               aria-label="Scroll to learn more"
             >
               <svg 
-                className="w-6 h-6" 
+                className="w-6 h-6 group-hover:translate-y-1 transition-transform duration-200" 
                 fill="none" 
-                stroke="currentColor" 
-                viewBox="0 0 24 24"
+                strokeLinecap="round" 
+                strokeLinejoin="round" 
+                strokeWidth="2" 
+                viewBox="0 0 24 24" 
+                stroke="currentColor"
               >
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                <path d="M19 14l-7 7m0 0l-7-7m7 7V3" />
               </svg>
             </button>
           </div>

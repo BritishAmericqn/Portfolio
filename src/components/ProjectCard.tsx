@@ -30,7 +30,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
 
   return (
     <article 
-      className="group bg-card border border-border p-8 transition-all duration-300 hover:border-neutral hover:shadow-lg hover:shadow-shadow hover:-translate-y-1 rounded-lg"
+      className="group bg-card border border-border p-8 transition-all duration-300 hover:border-neutral hover:shadow-lg hover:shadow-shadow hover:-translate-y-1 rounded-lg h-full flex flex-col"
     >
       {/* Project GIF/Image */}
       <div className="relative aspect-video mb-6 bg-neutral overflow-hidden rounded-md">
@@ -60,8 +60,8 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         </div>
       </div>
 
-      {/* Content */}
-      <div className="space-y-5">
+      {/* Content - flex-grow pushes buttons to bottom */}
+      <div className="flex-grow flex flex-col space-y-5">
         {/* Title and Role */}
         <div>
           <h3 className="text-2xl font-semibold text-foreground mb-2 group-hover:text-accent blue-text-hover transition-colors duration-200">
@@ -89,8 +89,8 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           ))}
         </div>
 
-        {/* Key Highlights */}
-        <div className="space-y-3">
+        {/* Key Highlights - flex-grow to fill remaining space */}
+        <div className="space-y-3 flex-grow">
           <h4 className="text-sm font-semibold text-foreground uppercase tracking-wider">
             Key Impact
           </h4>
@@ -104,8 +104,8 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           </ul>
         </div>
 
-        {/* Action Links */}
-        <div className="flex gap-3 pt-4">
+        {/* Action Links - always at bottom */}
+        <div className="flex gap-3 pt-4 mt-auto">
           <a
             href={project.github}
             target="_blank"

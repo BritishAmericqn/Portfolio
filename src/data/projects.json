@@ -24,12 +24,12 @@
     "longDescription": "Built to solve the tedious manual work of creating custom proposals and documentation for enterprise sales. Integrates directly with Salesforce to pull customer data and generates professional materials in seconds, not hours.",
     "tech": ["React", "Supabase", "OpenAI API", "Salesforce API", "LangChain"],
     "github": "https://github.com/solutions-engineer-auto/solutions-engineer-auto",
-    "live": "https://sedocgen.vercel.app",
+    "live": null,
     "gif": "/assets/se-toolkit-demo.gif",
     "role": "Lead Developer",
     "highlights": [
       "Real-time document generation (DOCX/PDF)",
-      "Salesforce data ingestion and sync",
+      "Dynamic in-document AI-powered suggestions and diff management",
       "Human-in-the-loop editing pipeline",
       "Accelerates SE workflows by 90%"
     ],
@@ -60,7 +60,7 @@
     "longDescription": "Designed for research teams needing reliable document management and workflow automation. Modernizes the MAYAN EDMS platform with cloud-native infrastructure, AI-powered document processing, and research-specific access controls.",
     "tech": ["Docker", "PostgreSQL", "AWS (EC2/S3/RDS)", "Mayan EDMS", "Python", "OCR"],
     "github": "https://github.com/BritishAmericqn/mayan-aws-edms",
-    "live": "https://mayan-research.vercel.app",
+    "live": null,
     "gif": "/assets/mayan-demo.gif",
     "role": "Technical Architect & Fullstack Developer",
     "highlights": [
@@ -87,6 +87,6 @@
       "Fine-tuned UX for clarity and minimalism",
       "Helps users learn while they write"
     ],
-    "category": "Education Technology"
+    "category": "Developer Tools"
   }
 ] 
